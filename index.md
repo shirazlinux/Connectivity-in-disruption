@@ -22,7 +22,12 @@ layout: default
   }
 
   html {
-    font-size: 19px !important;
+    font-size: 24px !important;
+  }
+
+  .main-content, .page-header {
+    max-width: 90% !important;
+    margin: 0 auto !important;
   }
 </style>
 
