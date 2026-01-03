@@ -20,6 +20,10 @@ layout: default
   .page-header {
     text-align: center;
   }
+
+  html {
+    font-size: 19px !important;
+  }
 </style>
 
 # راهنمای اینترنت آزاد: چگونه در زمان قطعی اینترنت، همچنان با دیگران در ارتباط بمانیم؟
