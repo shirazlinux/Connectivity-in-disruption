@@ -1,4 +1,30 @@
+---
+layout: default
+---
 
+<style>
+  /* ۱. وارد کردن فونت وزیر از سرور گوگل */
+  @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;400;700&display=swap');
+
+  /* ۲. اعمال فونت و راست‌چین کردن کل صفحه */
+  body { 
+    direction: rtl; 
+    text-align: right; 
+    font-family: 'Vazirmatn', sans-serif !important; 
+  }
+
+  /* ۳. هماهنگ‌سازی بخش‌های مختلف تم با فونت جدید و چیدمان راست */
+  .main-content, .page-header, .site-header, h1, h2, h3, h4, p, li, a {
+    font-family: 'Vazirmatn', sans-serif !important;
+    direction: rtl;
+    text-align: right;
+  }
+
+  /* ۴. وسط‌چین کردن هدر تم (اختیاری - اگر می‌خواهی تیتر سایت وسط باشد) */
+  .page-header {
+    text-align: center;
+  }
+</style>
 
 # راهنمای اینترنت آزاد: چگونه در زمان قطعی اینترنت، همچنان با دیگران در ارتباط بمانیم؟
 
